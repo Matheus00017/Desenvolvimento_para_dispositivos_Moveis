@@ -1,0 +1,28 @@
+2 Um posto está vendendo combustíveis com a seguinte tabela de descontos:    
+
+   Álcool: 
+  	Até 20 litros: desconto de 3% por litro 
+	Acima de 20 litros: Desconto de 5% por litro. 
+  Gasolina: 
+	Até 20 litros: desconto de 4% por litro 
+	Acima de 20 litros, desconto de 6% por litro 
+
+Escreva um algoritmo que leia o número de litros vendidos, o valor do litro de 
+combustível e o tipo de combustível (codificado da seguinte forma: A-álcool. G
+gasolina), calcule e imprima o valor a ser pago pelo cliente.
+
+
+3 Cálculo de Imposto Sobre Serviço
+Uma empresa de consultoria cobra taxas diferentes dependendo do volume de horas contratadas pelo cliente.
+Escreva um algoritmo que leia o total de horas de consultoria prestadas e o valor da hora base.
+O sistema deve calcular o valor total a ser pago sabendo que há uma taxa de serviço aplicada sobre o valor final:
+   Até 10 horas: Taxa de serviço de 10% sobre o valor total.
+   De 11 a 30 horas: Taxa de serviço de 5% sobre o valor total.
+   Acima de 30 horas: Isento de taxa de serviço (0%).
+O algoritmo deve imprimir o valor bruto, o valor da taxa e o valor total final que o cliente irá pagar.
+
+
+4 Escreva um algoritmo que leia o ano de nascimento de uma pessoa. O sistema deve verificar a idade e exibir uma mensagem baseada nas seguintes condições:
+       Menor de 16 anos: Exiba "Não pode votar".
+       Entre 16 e 17 anos: Exiba "Voto opcional".
+       18 anos ou mais: Exiba "Voto obrigatório".

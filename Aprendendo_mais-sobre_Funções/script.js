@@ -1,7 +1,15 @@
+
+
 //
     let escolha = ("O que o senhor deseja\nAlcool ou gasolina");
-function VendasCombustivel(alcool, gasolina){
+function VendasCombustivel(preco, litro){
     
+   let valorAlcool = 4.04;
+   let valorGasolina = 6.53;
+
+   alert("O que o senhor deseja")
+   Option()
+
     
 }
 
