@@ -1,21 +1,16 @@
+/*
+3 Cálculo de Imposto Sobre Serviço
+Uma empresa de consultoria cobra taxas diferentes dependendo do volume de horas contratadas pelo cliente.
+Escreva um algoritmo que leia o total de horas de consultoria prestadas e o valor da hora base.
+O sistema deve calcular o valor total a ser pago sabendo que há uma taxa de serviço aplicada sobre o valor final:
+   Até 10 horas: Taxa de serviço de 10% sobre o valor total.
+   De 11 a 30 horas: Taxa de serviço de 5% sobre o valor total.
+   Acima de 30 horas: Isento de taxa de serviço (0%).
+O algoritmo deve imprimir o valor bruto, o valor da taxa e o valor total final que o cliente irá pagar.
+
+*/
 
 
-//
-    let escolha = ("O que o senhor deseja\nAlcool ou gasolina");
-function VendasCombustivel(preco, litro){
-    
-   let valorAlcool = 4.04;
-   let valorGasolina = 6.53;
-
-   alert("O que o senhor deseja")
-   Option()
-
-    
-}
-
- console.log(VendasCombustivel);
-
- 
 
 
 
@@ -62,26 +57,7 @@ function VendasCombustivel(preco, litro){
  ______________________________________________________________
  ____________________________Exercicio_1_______________________
 
- function avaliarNotas(nota1 , nota2, nota3){
-    const peso1 = 4;
-    const peso2 = 3;
-    const peso3 = 3;
-    const somaPesos = peso1 + peso2 + peso3;
-
-    const media = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / somaPesos;
-
-    if(media >= 7){
-        console.log(`A media do aluno foi ${media} o aluno está aprovado`);
-    } else if(media >= 5){
-        console.log(`A media do aluno foi ${media} o aluno está de recuperação`);
-    }else{
-        console.log(`A media do aluno foi ${media} o aluno está REPROVADO`);
-    }
-
-    
- }
-
- console.log(avaliarNotas(7.0 , 9.0, 5.0));
+ 
 
  ______________________________________________________________
  ____________________________Exercicio_2_______________________
