@@ -10,6 +10,15 @@ export default function Calculadora() {
     function soma(){
         setRes(+num1 + +num2);
     }
+    function divisao(){
+        setRes(+num1 / +num2);
+    }
+    function subtracao(){
+        setRes(+num1 - +num2);
+    }
+    function multiplicacao(){
+        setRes(+num1 * +num2);
+    }
 
     return(
         <View style={styles.calcContainer}>
@@ -23,6 +32,15 @@ export default function Calculadora() {
             <View style={styles.botaoContainer}>
                 <Pressable style={styles.botao} onPress={soma}>
                     <Text style={styles.botaoTexto}>+</Text>
+                </Pressable>
+                <Pressable style={styles.botao} onPress={subtracao}>
+                    <Text style={styles.botaoTexto}>-</Text>
+                </Pressable>
+                <Pressable style={styles.botao} onPress={multiplicacao}>
+                    <Text style={styles.botaoTexto}>*</Text>
+                </Pressable>
+                <Pressable style={styles.botao} onPress={divisao}>
+                    <Text style={styles.botaoTexto}>/</Text>
                 </Pressable>
             </View>
             <View style={styles.resultadoContainer}>
@@ -40,7 +58,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#edf6ee',
+        backgroundColor: '#0a6bac',
         width: '100%'
     },
     tituloContainer: {
@@ -55,21 +73,23 @@ const styles = StyleSheet.create({
     inputContainer: {
         flex: 1,
         justifyContent: 'flex-start',
+        gap: 15
     },
     input: {
-        width: '80%',
+        width: '90%',
         borderRadius: 8,
-        borderColor: '#e0eff1',
-        borderWidth: 1
+        borderColor: '#f1eded',
+        borderWidth: 2
     },
     botaoContainer: {
         flex: 1,
         justifyContent: 'flex-start',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        gap: 15
     },
     botao: {
-        width: '20%',
-        height: 16,
+        width: '10%',
+        height: 20,
         backgroundColor: '#7db4b5',
         borderRadius: 4,
         justifyContent: 'center',
@@ -82,8 +102,9 @@ const styles = StyleSheet.create({
     resultadoContainer: {
         width: '100%',
         justifyContent: 'center',
+        marginBottom: 40,
         alignItems: 'center',
-        marginTop: 25
+        marginTop: 40
     },
 
     textoResultado: {
