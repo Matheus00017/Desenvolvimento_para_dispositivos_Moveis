@@ -30,9 +30,11 @@ export default function Calculadora() {
                 <TextInput style={styles.input} placeholder='Segundo nº' value={num2} onChangeText={setNum2}/>
             </View>
             <View style={styles.botaoContainer}>
+
                 <Pressable style={styles.botao} onPress={soma}>
                     <Text style={styles.botaoTexto}>+</Text>
                 </Pressable>
+                
                 <Pressable style={styles.botao} onPress={subtracao}>
                     <Text style={styles.botaoTexto}>-</Text>
                 </Pressable>
